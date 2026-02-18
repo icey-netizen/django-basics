@@ -8,9 +8,9 @@ urlpatterns = [
     
     path('',views.index, name='index'),
     
-    path('gallery/',views.gallery, ),
+    path('gallery/',views.gallery, name='gallery'),
     
-    path('services/',views.services),
+    path('services/',views.services, name='services'),
 
     
 ]
